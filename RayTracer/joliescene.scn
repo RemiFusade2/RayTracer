@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+
+ <Cylinder radius="0.1" height="1.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="wood.jpg" scale="0.1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="0.0" y="0.0" z="0.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Cylinder>
+
+ <Cylinder radius="0.1" height="1.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="wood.jpg" scale="0.1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="0.0" y="2.0" z="0.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Cylinder>
+
+ <Cylinder radius="0.1" height="1.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="wood.jpg" scale="0.1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="2.0" y="0.0" z="0.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Cylinder>
+
+ <Cylinder radius="0.1" height="1.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="wood.jpg" scale="0.1" mode="BLEND" /> 
+  </Material>
+  <Frame>
+   <position x="2.0" y="2.0" z="0.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Cylinder>
+
+ <Plane width="2.5" height="2.5">
+  <Material>
+   <DiffuseColor red="0.2" green="0.9" blue="0.2"/>
+   <SpecularColor red="0.7" green="0.7" blue="0.7" exponent="16"/>
+   <Texture file="billard.png" scale="1.0" mode="BLEND"/>
+   <BumpMap file="billardbump.png" scale="1.0" mode="BLEND"/>
+  </Material>
+ <Frame>
+   <position x="1.0" y="1.0" z="1.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Plane>
+
+<Sphere radius="0.1">
+  <Material>
+   <DiffuseColor red="0.9" green="0.1" blue="0.1" />
+   <SpecularColor red="0.8" green="0.6" blue="0.6" exponent="2" />
+   <ReflectiveColor red="0.4" green="0.2" blue="0.2" />
+ </Material>
+  <Frame>
+   <position x="1.4" y="1.6" z="1.1" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+
+<Sphere radius="0.1">
+  <Material>
+   <DiffuseColor red="1" green="1" blue="1" />
+   <SpecularColor red="0.8" green="0.6" blue="0.6" exponent="2" />
+   <ReflectiveColor red="0.4" green="0.2" blue="0.2" />
+   </Material>
+  <Frame>
+   <position x="1" y="1" z="1.1" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+
+ <Sphere radius="0.1">
+  <Material>
+   <DiffuseColor red="0.1" green="0.9" blue="0.1" />
+   <SpecularColor red="0.6" green="0.8" blue="0.6" exponent="4" />
+   <ReflectiveColor red="0.3" green="0.6" blue="0.3" />
+  </Material>
+  <Frame>
+   <position x="0.1" y="0.4" z="1.1" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+ 
+ <Sphere radius="0.1">
+  <Material>
+   <DiffuseColor red="0.1" green="0.1" blue="0.9" />
+   <SpecularColor red="0.6" green="0.6" blue="0.8" exponent="16" />
+   <ReflectiveColor red="0.4" green="0.4" blue="0.8" />
+  </Material>
+  <Frame>
+   <position x="0.5" y="1.5" z="1.1" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+
+<Cylinder bottomRadius="0.08" topRadius="0.06" height="2.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="wood.jpg" scale="1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="1.0" y="-1.5" z="1.1"/>
+   <orientation q0="0.0" q1="1.0" q2="1.0" q3="0.0"/>
+  </Frame>
+ </Cylinder>
+
+
+
+ <Plane>
+  <Material>
+   <DiffuseColor red="1.0" green="0.9" blue="0.5"/>
+   <SpecularColor red="0.7" green="0.7" blue="0.7" exponent="16"/>
+   <Texture file="checkboard.png" scale="2.0" mode="BLEND"/>
+  </Material>
+ </Plane>
+
+  <Camera fieldOfView="0.7854" xResolution="500" yResolution="500" sampling="4">
+  <Frame>
+   <position x="1.93361" y="-1.74071" z="2.31345"/>
+   <orientation q0="-0.469189" q1="-0.156603" q2="-0.257684" q3="-0.830022"/>
+  </Frame>
+ </Camera>
+ 
+ <AmbientLight>
+  <Color red="0.2" green="0.2" blue="0.2"/>
+ </AmbientLight>
+
+ <DirectionalLight>
+  <Direction x="-0.1" y="1.0" z="-0.4"/>
+  <Color red="0.7" green="0.7" blue="0.7"/>
+ </DirectionalLight>
+
+ <DirectionalLight>
+  <Direction x="-1.0" y="-0.4" z="-1.2"/>
+  <Color red="0.8" green="0.8" blue="0.8"/>
+ </DirectionalLight>
+</Scene>

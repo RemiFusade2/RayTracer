@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene red="0.7" green="0.7" blue="0.7" >
+  
+  <Plane>
+    <Material>
+      <DiffuseColor red="1.0" green="0.9" blue="0.5" />
+      <Texture file="bump.jpg" scale="1" mode="BLEND" />
+      <BumpMap file="bump.jpg" scale="1" mode="BLEND" />
+    </Material>
+    <Frame>
+      <position x="0" y="0" z="0" />
+    </Frame>
+  </Plane>
+
+
+  <Maillage>
+<Vertex x="0.572393" y="0.301904" z="0.096052"/>
+      <Vertex x="0.814722" y="0.759574" z="0.113884"/>
+      <Vertex x="0.677844" y="0.498932" z="0.185414"/>
+      <Vertex x="0.615204" y="0.473071" z="0.183923"/>
+      <Vertex x="0.401387" y="0.165201" z="0.158798"/>
+      <Vertex x="0.366322" y="0.213748" z="0.106840"/>
+      <Vertex x="0.554913" y="0.897452" z="0.099213"/>
+      <Vertex x="0.652004" y="0.299621" z="0.152974"/>
+      <Vertex x="0.603848" y="0.423510" z="0.211057"/>
+      <Vertex x="0.724566" y="0.880526" z="0.102593"/>
+      <Vertex x="0.358396" y="0.238270" z="0.141348"/>
+      <Vertex x="0.547275" y="0.862632" z="0.134441"/>
+      <Vertex x="0.615781" y="0.384527" z="0.136419"/>
+      <Vertex x="0.378097" y="0.170565" z="0.133344"/>
+      <Vertex x="0.685554" y="0.500345" z="0.217096"/>
+      <Vertex x="0.726554" y="0.654408" z="0.207713"/>
+      <Vertex x="0.570684" y="0.305885" z="0.191392"/>
+      <Vertex x="0.685629" y="0.420399" z="0.230763"/>
+      <Vertex x="0.385425" y="0.188172" z="0.190562"/>
+      <Vertex x="0.748354" y="0.836361" z="0.219938"/>
+      <Vertex x="0.711510" y="0.829831" z="0.207503"/>
+      <Vertex x="0.698539" y="0.812966" z="0.159049"/>
+      <Vertex x="0.717007" y="0.430567" z="0.205735"/>
+      <Vertex x="0.525746" y="0.817430" z="0.148022"/>
+      <Vertex x="0.574920" y="0.511900" z="0.188574"/>
+      <Vertex x="0.524401" y="0.695683" z="0.139038"/>
+      <Vertex x="0.794531" y="0.825243" z="0.106680"/>
+      <Vertex x="0.222862" y="0.118586" z="0.180591"/>
+      <Vertex x="0.602991" y="0.389341" z="0.183987"/>
+      <Vertex x="0.738986" y="0.434653" z="0.163385"/>
+      <Vertex x="0.252467" y="0.104665" z="0.133599"/>
+      <Vertex x="0.249483" y="0.097120" z="0.156046"/>
+      <Vertex x="0.189289" y="0.118897" z="0.173894"/>
+      <Vertex x="0.211326" y="0.141483" z="0.147462"/>
+      <Vertex x="0.370203" y="0.189888" z="0.175930"/>
+      <Vertex x="0.370581" y="0.208696" z="0.190467"/>
+      <Vertex x="0.361121" y="0.226701" z="0.178267"/>
+      <Vertex x="0.572011" y="0.461157" z="0.178641"/>
+      <Vertex x="0.725813" y="0.645120" z="0.230679"/>
+      <Vertex x="0.653706" y="0.744831" z="0.164602"/>
+      <Vertex x="0.731162" y="0.729936" z="0.176796"/>
+      <Vertex x="0.769224" y="0.750425" z="0.212713"/>
+      <Vertex x="0.733446" y="0.772057" z="0.220093"/>
+      <Vertex x="0.564175" y="0.866216" z="0.153179"/>
+      <Vertex x="0.387452" y="0.174195" z="0.113394"/>
+      <Vertex x="0.602986" y="0.802750" z="0.137351"/>
+      <Vertex x="0.741135" y="0.449302" z="0.150230"/>
+      <Vertex x="0.563774" y="0.506622" z="0.149290"/>
+      <Vertex x="0.620144" y="0.339892" z="0.192961"/>
+      <Vertex x="0.574831" y="0.352669" z="0.167322"/>
+      <Vertex x="0.602572" y="0.429434" z="0.157180"/>
+      <Vertex x="0.519842" y="0.851180" z="0.122222"/>
+      <Vertex x="0.674280" y="0.896208" z="0.176217"/>
+      <Vertex x="0.661930" y="0.339369" z="0.118444"/>
+      <Vertex x="0.250141" y="0.110594" z="0.174729"/>
+      <Vertex x="0.779501" y="0.569605" z="0.148524"/>
+      <Vertex x="0.733754" y="0.541848" z="0.242132"/>
+      <Vertex x="0.753636" y="0.590158" z="0.233930"/>
+      <Vertex x="0.290601" y="0.179943" z="0.131620"/>
+      <Vertex x="0.650480" y="0.865605" z="0.183588"/>
+      <Vertex x="0.706308" y="0.686761" z="0.163703"/>
+      <Vertex x="0.557293" y="0.903570" z="0.143721"/>
+      <Triangle A="61" B="59" C="52"/>
+      <Triangle A="5" B="44" C="13"/>
+      <Triangle A="16" B="36" C="35"/>
+      <Triangle A="7" B="8" C="28"/>
+      <Triangle A="24" B="25" C="8"/>
+      <Triangle A="14" B="2" C="3"/>
+      <Triangle A="21" B="45" C="39"/>
+      <Triangle A="21" B="20" C="59"/>
+      <Triangle A="52" B="19" C="9"/>
+      <Triangle A="54" B="34" C="27"/>
+      <Triangle A="31" B="13" C="54"/>
+      <Triangle A="44" B="4" C="13"/>
+      <Triangle A="54" B="18" C="34"/>
+      <Triangle A="18" B="35" C="34"/>
+      <Triangle A="18" B="54" C="4"/>
+      <Triangle A="35" B="27" C="34"/>
+      <Triangle A="36" B="58" C="27"/>
+      <Triangle A="27" B="35" C="36"/>
+      <Triangle A="10" B="5" C="58"/>
+      <Triangle A="44" B="7" C="4"/>
+      <Triangle A="58" B="36" C="10"/>
+      <Triangle A="18" B="7" C="16"/>
+      <Triangle A="0" B="53" C="7"/>
+      <Triangle A="7" B="48" C="16"/>
+      <Triangle A="49" B="28" C="12"/>
+      <Triangle A="16" B="48" C="28"/>
+      <Triangle A="53" B="0" C="12"/>
+      <Triangle A="7" B="53" C="29"/>
+      <Triangle A="28" B="8" C="37"/>
+      <Triangle A="7" B="17" C="8"/>
+      <Triangle A="12" B="50" C="46"/>
+      <Triangle A="25" B="6" C="47"/>
+      <Triangle A="46" B="55" C="29"/>
+      <Triangle A="17" B="22" C="56"/>
+      <Triangle A="57" B="29" C="55"/>
+      <Triangle A="56" B="22" C="57"/>
+      <Triangle A="24" B="23" C="25"/>
+      <Triangle A="14" B="15" C="2"/>
+      <Triangle A="38" B="56" C="57"/>
+      <Triangle A="45" B="60" C="39"/>
+      <Triangle A="40" B="15" C="42"/>
+      <Triangle A="51" B="23" C="11"/>
+      <Triangle A="15" B="19" C="42"/>
+      <Triangle A="19" B="21" C="42"/>
+      <Triangle A="19" B="57" C="41"/>
+      <Triangle A="19" B="20" C="21"/>
+      <Triangle A="61" B="51" C="11"/>
+      <Triangle A="59" B="11" C="21"/>
+      <Triangle A="9" B="6" C="52"/>
+      <Triangle A="61" B="52" C="6"/>
+      <Triangle A="20" B="19" C="52"/>
+      <Triangle A="20" B="52" C="59"/>
+      <Triangle A="59" B="43" C="11"/>
+      <Triangle A="49" B="16" C="28"/>
+      <Triangle A="37" B="25" C="47"/>
+      <Triangle A="56" B="8" C="17"/>
+      <Triangle A="38" B="15" C="14"/>
+      <Triangle A="8" B="25" C="37"/>
+      <Triangle A="61" B="6" C="51"/>
+      <Triangle A="10" B="36" C="49"/>
+      <Triangle A="9" B="19" C="26"/>
+      <Triangle A="46" B="50" C="47"/>
+      <Triangle A="19" B="41" C="1"/>
+      <Triangle A="49" B="36" C="16"/>
+      <Triangle A="14" B="8" C="56"/>
+      <Triangle A="7" B="22" C="17"/>
+      <Triangle A="59" B="61" C="43"/>
+      <Triangle A="58" B="5" C="30"/>
+      <Triangle A="24" B="8" C="3"/>
+      <Triangle A="29" B="53" C="12"/>
+      <Triangle A="42" B="21" C="40"/>
+      <Triangle A="32" B="58" C="33"/>
+      <Triangle A="6" B="25" C="51"/>
+      <Triangle A="22" B="7" C="29"/>
+      <Triangle A="1" B="26" C="19"/>
+      <Triangle A="14" B="56" C="38"/>
+      <Triangle A="60" B="40" C="39"/>
+      <Triangle A="21" B="39" C="40"/>
+      <Triangle A="43" B="61" C="11"/>
+      <Triangle A="41" B="57" C="1"/>
+      <Triangle A="25" B="23" C="51"/>
+      <Triangle A="46" B="47" C="1"/>
+      <Triangle A="6" B="1" C="47"/>
+      <Triangle A="3" B="2" C="60"/>
+      <Triangle A="12" B="46" C="29"/>
+      <Triangle A="10" B="12" C="5"/>
+      <Triangle A="0" B="5" C="12"/>
+      <Triangle A="60" B="15" C="40"/>
+      <Triangle A="2" B="15" C="60"/>
+      <Triangle A="7" B="28" C="48"/>
+      <Triangle A="49" B="12" C="10"/>
+      <Triangle A="50" B="28" C="47"/>
+      <Triangle A="37" B="47" C="28"/>
+      <Triangle A="44" B="5" C="0"/>
+      <Triangle A="27" B="58" C="32"/>
+      <Triangle A="5" B="13" C="30"/>
+      <Triangle A="57" B="55" C="1"/>
+      <Triangle A="3" B="60" C="11"/>
+      <Triangle A="45" B="11" C="60"/>
+      <Triangle A="7" B="44" C="0"/>
+      <Triangle A="8" B="14" C="3"/>
+      <Triangle A="3" B="11" C="24"/>
+      <Triangle A="6" B="26" C="1"/>
+      <Triangle A="15" B="38" C="19"/>
+      <Triangle A="57" B="19" C="38"/>
+      <Triangle A="31" B="30" C="13"/>
+      <Triangle A="46" B="1" C="55"/>
+      <Triangle A="21" B="11" C="45"/>
+      <Triangle A="22" B="29" C="57"/>
+      <Triangle A="18" B="16" C="35"/>
+      <Triangle A="11" B="23" C="24"/>
+      <Triangle A="18" B="4" C="7"/>
+      <Triangle A="12" B="28" C="50"/>
+      <Triangle A="54" B="13" C="4"/>
+      <Triangle A="26" B="6" C="9"/>
+     <Material>
+     <DiffuseColor red="0.9" green="0.1" blue="0.1" />
+     <SpecularColor red="0.8" green="0.6" blue="0.6" exponent="2" />
+     <ReflectiveColor red="0.4" green="0.2" blue="0.2" />
+     <Texture file="checkboard.png" scale="0.1" mode="BLEND" />
+    </Material>
+  </Maillage>
+
+  <Camera fieldOfView="0.7854" xResolution="400" yResolution="400" sampling="2">
+    <Frame>
+        <position x="-1.78242" y="0.605104" z="0.362134" />
+        <orientation q0="-0.404373" q1="0.584974" q2="0.445863" q3="-0.543594" />
+    </Frame>
+  </Camera>
+  
+  <AmbientLight>
+    <Color red="0.2" green="0.2" blue="0.2" />
+  </AmbientLight>
+
+  <!-- <DirectionalLight> -->
+  <!--  <Direction x="0.3" y="0.5" z="-0.3" /> -->
+  <!--  <Color red="0.8" green="0.8" blue="0.8" /> -->
+  <!-- </DirectionalLight> -->
+
+  <PointLight sampling="3">
+    <Position x="1.0" y="-0.7" z="0.45" />
+    <Color red="0.7" green="0.7" blue="0.7" />
+  </PointLight>
+
+</Scene>

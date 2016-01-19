@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+
+ <Sphere radius="0.4">
+  <Material>
+   <DiffuseColor red="0.2" green="0.2" blue="0.2" />
+   <SpecularColor red="1" green="1" blue="1" exponent="50" />
+   <ReflectiveColor red="0.7" green="0.7" blue="0.7" />
+   <Texture file="rayure.png" scale="0.1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="-0.4" y="-0.4" z="0.4" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+
+ <Sphere radius="0.4">
+  <Material>
+   <DiffuseColor red="0.4" green="0.4" blue="0.4" />
+   <SpecularColor red="1" green="1" blue="1" exponent="50" />
+   <ReflectiveColor red="0.7" green="0.7" blue="0.7" />
+   <Texture file="rayure.png" scale="0.3" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="0.1" y="0.4" z="0.4" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+ 
+ <Sphere radius="0.1">
+  <Material>
+   <DiffuseColor red="0.8" green="0.5" blue="0.0" />
+   <SpecularColor red="0.3" green="0.2" blue="0.1" exponent="1.5" />
+  </Material>
+  <Frame>
+   <position x="0.5" y="-0.5" z="0.1" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Sphere>
+ 
+ <Plane>
+  <Material>
+   <DiffuseColor red="1.0" green="0.9" blue="0.5" />
+  </Material>
+ </Plane>
+
+ <Plane>
+  <Material>
+   <DiffuseColor red="0.5" green="0.5" blue="0.9" />
+  </Material>
+  <Frame>
+   <position x="0.0" y="0.0" z="6.0" />
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0" />
+  </Frame>
+ </Plane>
+
+ <Camera fieldOfView="0.7854" xResolution="400" yResolution="400" sampling="3">
+  <Frame>
+   <position x="1.34115" y="-1.64492" z="0.5559" />
+   <orientation q0="-0.630573" q1="-0.252873" q2="-0.271589" q3="-0.681669" />
+  </Frame>
+ </Camera>
+ 
+ <AmbientLight>
+  <Color red="0.2" green="0.2" blue="0.2" />
+ </AmbientLight>
+
+ <DirectionalLight>
+  <Direction x="0.3" y="0.5" z="-0.1" />
+  <Color red="0.8" green="0.8" blue="0.8" />
+ </DirectionalLight>
+
+ <PointLight>
+  <Position x="1.0" y="-0.7" z="0.45" />
+  <Color red="0.7" green="0.7" blue="0.7" />
+ </PointLight>
+
+</Scene>

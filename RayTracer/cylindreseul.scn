@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+
+ <Cylinder bottomRadius="0.3" topRadius="0.7" height="1.0">
+  <Material>
+   <DiffuseColor red="0.8" green="0.2" blue="0.2"/>
+   <ReflectiveColor red="0.2" green="0.2" blue="0.2"/>
+   <SpecularColor red="0.5" green="0.5" blue="0.5" exponent="16"/>
+   <Texture file="checkboard.png" scale="0.1" mode="BLEND" />
+  </Material>
+  <Frame>
+   <position x="0.0" y="0.0" z="0.0"/>
+   <orientation q0="0.0" q1="0.0" q2="0.0" q3="1.0"/>
+  </Frame>
+ </Cylinder>
+
+ <Camera fieldOfView="0.7854" xResolution="500" yResolution="500" sampling="4">
+  <Frame>
+   <position x="1.93361" y="-1.74071" z="2.31345"/>
+   <orientation q0="-0.469189" q1="-0.156603" q2="-0.257684" q3="-0.830022"/>
+  </Frame>
+ </Camera>
+ 
+ <AmbientLight>
+  <Color red="0.2" green="0.2" blue="0.2"/>
+ </AmbientLight>
+
+ <DirectionalLight>
+  <Direction x="-0.1" y="1.0" z="-0.4"/>
+  <Color red="0.7" green="0.7" blue="0.7"/>
+ </DirectionalLight>
+
+ <DirectionalLight>
+  <Direction x="-1.0" y="-0.4" z="-1.2"/>
+  <Color red="0.8" green="0.8" blue="0.8"/>
+ </DirectionalLight>
+</Scene>

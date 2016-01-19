@@ -1,0 +1,15 @@
+Simon                     Triangles - Niveau 1
+Simon                     Surfaces triangulées - Niveau 1
+Laura			  Perturbation de normales - Niveau 1
+Orianne			  (Cartes d'environnement - Niveau 1)
+/ Ganesh	                  Prévisualisation - Niveau 1
+
+Orianne                   Cylindres - Niveau 2
+// Samuel   		  Réflection de Fresnel - Niveau 2
+Orianne 		  Lampes atténuées - Niveau 2
+Samuel			  (Affichage OpenGL - Niveau 2)
+Simon 			  (Anti-aliassage - Niveau 2)
+
+Samuel                    (Surfaces splines - Niveau 3)
+Ganesh                    Réfraction - Niveau 3
+/ Samuel 			  Ombres douces - Niveau 3

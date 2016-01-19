@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene red="0.7" green="0.7" blue="0.7" >
+
+ <Camera fieldOfView="0.7854" xResolution="400" yResolution="400" sampling="2">
+  <Frame>
+   <position x="3" y="-1.63493" z="0.557532" />
+   <orientation q0="-0.623147" q1="-0.270643" q2="-0.246995" q3="-0.690966" />
+  </Frame>
+ </Camera>
+ 
+ <AmbientLight>
+  <Color red="0.2" green="0.2" blue="0.2" />
+ </AmbientLight>
+
+<!--  <Spline u_order="3" v_order="2"> -->
+<!--    <Vec x="0" y="0" z="0"></Vec> -->
+<!--    <Vec x="1" y="1" z="0"></Vec> -->
+<!--    <Vec x="2" y="0" z="0"></Vec> -->
+
+<!--    <Vec x="0" y="0" z="1"></Vec> -->
+<!--    <Vec x="1" y="1" z="1"></Vec> -->
+<!--    <Vec x="2" y="0" z="1"></Vec> -->
+<!-- </Spline> -->
+
+ <Spline u_order="3" v_order="3">
+   <Vec x="0" y="0" z="0"></Vec>
+   <Vec x="0" y="1" z="0"></Vec>
+   <Vec x="0" y="2" z="0"></Vec>
+
+   <Vec x="1" y="0" z="0"></Vec>
+   <Vec x="1" y="1" z="5"></Vec>
+   <Vec x="1" y="2" z="0"></Vec>
+
+   <Vec x="2" y="0" z="0"></Vec>
+   <Vec x="2" y="1" z="0"></Vec>
+   <Vec x="2" y="2" z="0"></Vec>
+
+   <Material>
+     <DiffuseColor red="0.1" green="0.9" blue="0.1" />
+     <SpecularColor red="0.6" green="0.8" blue="0.6" exponent="4" />
+     <ReflectiveColor red="0.3" green="0.6" blue="0.3" />
+   </Material>
+</Spline>
+
+</Scene>

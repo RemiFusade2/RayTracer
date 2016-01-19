@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene red="0.7" green="0.7" blue="0.7" >
+
+  <Plane width="8" height="9">
+    <Material>
+      <DiffuseColor red="1.0" green="0.9" blue="0.5" />
+      <BumpMap file="lena.png" scale="1" mode="BLEND" />
+    </Material>
+    <Frame>
+      <position x="0" y="0" z="-1" />
+    </Frame>    
+  </Plane>
+
+  <Camera fieldOfView="0.7854" xResolution="400" yResolution="400" sampling="2">
+    <Frame>
+      <position x="0" y="0" z="12" />
+      <orientation q0="0" q1="0" q2="0" q3="1" />
+    </Frame>
+  </Camera>
+  
+  <AmbientLight>
+    <Color red="0.2" green="0.2" blue="0.2" />
+  </AmbientLight>
+
+  <!-- <DirectionalLight> -->
+  <!--  <Direction x="0.3" y="0.5" z="-0.3" /> -->
+  <!--  <Color red="0.8" green="0.8" blue="0.8" /> -->
+  <!-- </DirectionalLight> -->
+
+  <PointLight sampling="3">
+    <Position x="1.0" y="-0.7" z="7" />
+    <Color red="0.7" green="0.7" blue="0.7" />
+  </PointLight>
+
+</Scene>
