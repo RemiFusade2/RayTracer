@@ -1,4 +1,4 @@
--- RayTracer --
+# RayTracer
 
 RayTracer is a student projet made in the ENSIMAG (French engineering school of computer science) in 2010.
 
@@ -16,6 +16,6 @@ It supports:
 - 3D Meshes
 
 Written by:
-- Rémi Fusade
+- RÃ©mi Fusade
 - Samuel Loury
 - Orianne Siret
